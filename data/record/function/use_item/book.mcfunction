@@ -1,6 +1,7 @@
 advancement revoke @s only record:use_item/book
+
 #沒有安裝就沒有後面的
-execute unless data storage record:data root.install run return fail
+execute unless data storage record:data root.install run return run tellraw @s ["<", {"text": "記錄位置", "color": "blue"}, "> 尚未安裝資料包！\n<", {"text": "記錄位置", "color": "blue"}, "> 請使用 ", {"text": "/function record:install", "clickEvent": {"action": "run_command", "value": "/function record:install"}, "hoverEvent": {"action": "show_text", "contents": "執行 /function record:install"}}, " 指令安裝。"]
 
 #由於陣列不能傳巨集 所以必須存到{}裡
 data modify storage record:data root.uuid.0 set from entity @s UUID[0]

@@ -1,0 +1,24 @@
+{
+	"criteria":
+	{
+		"glowstone_dust":
+		{
+			"trigger": "minecraft:using_item",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:glowstone_dust",
+					"components":
+					{
+						"custom_data": "{record: true}"
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "record:use_item/glowstone_dust"
+	}
+}

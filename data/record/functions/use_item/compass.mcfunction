@@ -1,4 +1,5 @@
 advancement revoke @s only record:use_item/compass
+
 #沒有安裝就沒有後面的
 execute unless data storage record:data root.install run return fail
 
