@@ -1,0 +1,2 @@
+give @s book[custom_name='[{"text": "記錄位置 ", "italic": false}, {"text": "(", "color": "gray", "extra": [{"keybind": "key.use"}, ")"]}]', food={can_always_eat: true, eat_seconds: 86400, nutrition: 1, saturation: 1}, enchantment_glint_override=true, custom_data={record: true}]
+give @s compass[custom_name='[{"text": "回到記錄點 ", "italic": false}, {"text": "(", "color": "gray", "extra": [{"keybind": "key.use"}, ")"]}]', food={can_always_eat: true, eat_seconds: 86400, nutrition: 1, saturation: 1}, lodestone_tracker={}, custom_data={record: true}]

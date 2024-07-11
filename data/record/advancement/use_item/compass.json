@@ -1,0 +1,24 @@
+{
+	"criteria":
+	{
+		"compass":
+		{
+			"trigger": "minecraft:using_item",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:compass",
+					"components":
+					{
+						"custom_data": "{record: true}"
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "record:use_item/compass"
+	}
+}

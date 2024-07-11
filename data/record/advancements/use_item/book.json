@@ -1,0 +1,27 @@
+{
+	"criteria":
+	{
+		"book":
+		{
+			"trigger": "minecraft:using_item",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:book",
+					"components":
+					{
+						"custom_data":
+						{
+							"record": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "record:use_item/book"
+	}
+}

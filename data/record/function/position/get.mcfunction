@@ -1,0 +1,1 @@
+$function record:position/teleport with storage record:data root.$(0)$(1)$(2)$(3)
