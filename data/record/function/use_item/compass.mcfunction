@@ -11,7 +11,3 @@ data modify storage record:data root.uuid.3 set from entity @s UUID[3]
 
 #將uuid傳送至記錄用的函數 作為storage的唯一key
 function record:position/get with storage record:data root.uuid
-
-#發送訊息
-title @s actionbar {"text": "已成功傳送！", "color": "green"}
-playsound entity.player.teleport master @s ~ ~ ~ .5 2.0
