@@ -9,7 +9,7 @@
 				"item":
 				{
 					"items": "minecraft:compass",
-					"components":
+					"predicates":
 					{
 						"custom_data":
 						{

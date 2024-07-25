@@ -9,9 +9,12 @@
 				"item":
 				{
 					"items": "minecraft:book",
-					"components":
+					"predicates":
 					{
-						"custom_data": "{record: true}"
+						"custom_data":
+						{
+							"record": true
+						}
 					}
 				}
 			}
