@@ -5,7 +5,7 @@
 		"supported_formats":
 		{
 			"min_inclusive": 41,
-			"max_inclusive": 48
+			"max_inclusive": 57
 		},
 		"description": "記錄位置資料包 by AC"
 	}
