@@ -1,3 +1,3 @@
 give @s book[custom_name='[{"text": "記錄位置 ", "italic": false}, {"text": "(", "color": "gray", "extra": [{"keybind": "key.use"}, ")"]}]', food={can_always_eat: true, eat_seconds: 86400, nutrition: 1, saturation: 1}, consumable={consume_seconds: 86400}, enchantment_glint_override=true, custom_data={record: true}]
 give @s compass[custom_name='[{"text": "傳送到記錄點 ", "italic": false}, {"text": "(", "color": "gray", "extra": [{"keybind": "key.use"}, ")"]}]', food={can_always_eat: true, eat_seconds: 86400, nutrition: 1, saturation: 1}, consumable={consume_seconds: 86400}, lodestone_tracker={}, custom_data={record: true}]
-give @s feather[custom_data={record: true}]
+give @s turtle_scute[custom_data={record: true}]

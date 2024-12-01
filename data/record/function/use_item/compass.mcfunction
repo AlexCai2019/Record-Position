@@ -6,6 +6,9 @@ execute unless score #install rp_core matches 1 run return run tellraw @s ["<", 
 #冷卻
 scoreboard players set @s rp_compass_cooldown 4
 
+#落地偵測
+execute if score #ground_store rp_core matches 1 unless predicate record:on_ground run return run function record:player/not_on_ground
+
 #先記錄下現在的位置
 data modify storage record:data root.args.uuid set from entity @s UUID
 data modify storage record:data root.args.key set value "before"
