@@ -1,0 +1,38 @@
+{
+	"criteria":
+	{
+		"turtle_scute":
+		{
+			"trigger": "minecraft:using_item",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:turtle_scute",
+					"predicates":
+					{
+						"custom_data":
+						{
+							"record": true
+						}
+					}
+				},
+				"player":
+				[
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores":
+						{
+							"rp_turtle_scute_cooldown": 0
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "record:use_item/turtle_scute"
+	}
+}

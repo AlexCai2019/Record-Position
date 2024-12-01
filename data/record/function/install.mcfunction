@@ -8,6 +8,7 @@ tellraw @s ["<", {"text": "記錄位置", "color": "blue"}, "> 外部連結：",
 scoreboard objectives add rp_core dummy
 scoreboard objectives add rp_book_cooldown dummy
 scoreboard objectives add rp_compass_cooldown dummy
+scoreboard objectives add rp_turtle_scute_cooldown dummy
 scoreboard objectives add rp_inventory dummy
 
 #偵測有安裝

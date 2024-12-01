@@ -10,4 +10,5 @@ data remove storage record:data root
 scoreboard objectives remove rp_core
 scoreboard objectives remove rp_book_cooldown
 scoreboard objectives remove rp_compass_cooldown
+scoreboard objectives remove rp_turtle_scute_cooldown
 scoreboard objectives remove rp_inventory
