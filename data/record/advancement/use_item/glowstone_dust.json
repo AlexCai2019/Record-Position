@@ -16,7 +16,18 @@
 							"record": true
 						}
 					}
-				}
+				},
+				"player":
+				[
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores":
+						{
+							"rp_glowstone_cooldown": 0
+						}
+					}
+				]
 			}
 		}
 	},

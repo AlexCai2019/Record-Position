@@ -1,1 +1,1 @@
-execute as @a run function record:player
+execute as @a run function record:player/tick

@@ -4,3 +4,8 @@ tellraw @s ["<", {"text": "記錄位置", "color": "blue"}, "> 外部連結：",
 
 clear @a #record:special_items[custom_data~{record: true}]
 data remove storage record:data root
+
+scoreboard objectives remove rp_core
+scoreboard objectives remove rp_book_cooldown
+scoreboard objectives remove rp_compass_cooldown
+scoreboard objectives remove rp_glowstone_cooldown
