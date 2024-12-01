@@ -1,0 +1,2 @@
+$execute if score #$(name) rp_core matches 1 run return run data modify storage record:data root.args.option set value '{"translate": "options.on", "color": "green"}'
+data modify storage record:data root.args.option set value '{"translate": "options.off", "color": "red"}'
