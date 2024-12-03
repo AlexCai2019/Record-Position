@@ -1,10 +1,7 @@
 # 記錄位置資料包
 
 ## 展示
-<video width="640" height="360" controls>
-	<source src="showcase.mp4" type="video/mp4">
-	展示影片
-</video>
+![展示GIF](showcase.gif)
 
 ## 安裝方式
 1. 下載資料包並解壓縮
