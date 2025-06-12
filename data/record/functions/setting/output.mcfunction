@@ -1,0 +1,4 @@
+#輸出
+$execute if score #$(name) rp_core matches 1 run return run tellraw @s [{"text": "$(text): ", "hoverEvent": {"action": "show_text", "contents": "$(description)"}}, {"translate": "options.on", "color": "green", "clickEvent": {"action": "run_command", "value": "/function record:setting/input {name: \"$(name)\", text: \"$(text)\"}"}}]
+
+$tellraw @s [{"text": "$(text): ", "hoverEvent": {"action": "show_text", "contents": "$(description)"}}, {"translate": "options.off", "color": "red", "clickEvent": {"action": "run_command", "value": "/function record:setting/input {name: \"$(name)\", text: \"$(text)\"}"}}]
