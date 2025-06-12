@@ -7,7 +7,7 @@ execute unless score #install rp_core matches 1 run return run tellraw @s ["<", 
 scoreboard players set @s rp_book_cooldown 4
 
 #落地偵測
-execute if score #ground_store rp_core matches 1 if entity @s[nbt={OnGround: false}] run return run function record:player/not_on_ground
+execute if score #ground_store rp_core matches 1 unless predicate record:on_ground run return run function record:player/not_on_ground
 
 #將UUID傳送至記錄用的函數 作為storage的唯一key
 data modify storage record:data root.args.uuid set from entity @s UUID
