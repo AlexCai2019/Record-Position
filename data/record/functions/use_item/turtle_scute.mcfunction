@@ -10,11 +10,12 @@ scoreboard players set @s rp_turtle_scute_cooldown 4
 execute if score #ground_teleport rp_core matches 1 if entity @s[nbt={OnGround: false}] run return run function record:player/not_on_ground
 
 #先記錄下現在的位置
-data modify storage record:data root.args.uuid set from entity @s UUID
+data modify storage record:data root.args.uuid set value 0
 data modify storage record:data root.args.key set value "temp"
 function record:position/store with storage record:data root.args
 
 #再傳送回去
+data modify storage record:data root.args.uuid set from entity @s UUID
 data modify storage record:data root.args.key set value "before"
 function record:position/get with storage record:data root.args
 

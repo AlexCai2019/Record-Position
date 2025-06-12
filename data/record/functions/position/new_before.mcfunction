@@ -1,1 +1,1 @@
-$data modify storage record:data root."$(uuid)".before set from storage record:data root."$(uuid)".temp
+$data modify storage record:data root."$(uuid)".before set from storage record:data root."0".temp
