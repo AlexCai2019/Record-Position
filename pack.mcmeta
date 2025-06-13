@@ -2,6 +2,7 @@
 	"pack":
 	{
 		"pack_format": 61,
+		"supported_formats": [57, 61],
 		"description": "記錄位置資料包 by AC"
 	}
 }
