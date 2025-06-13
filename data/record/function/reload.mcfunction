@@ -1,3 +1,3 @@
-tellraw @a ["<", {"text": "記錄位置", "color": "blue"}, "> 歡迎使用記錄位置資料包！"]
-tellraw @a ["<", {"text": "記錄位置", "color": "blue"}, "> 使用 ", {"text": "/function record:install", "color": "green", "clickEvent": {"action": "run_command", "value": "/function record:install"}, "hoverEvent": {"action": "show_text", "contents": ["執行", {"text": "安裝", "color": "green"}]}}, " 安裝。"]
-tellraw @a ["<", {"text": "記錄位置", "color": "blue"}, "> 使用 ", {"text": "/function record:uninstall", "color": "red", "clickEvent": {"action": "run_command", "value": "/function record:uninstall"}, "hoverEvent": {"action": "show_text", "contents": ["執行", {"text": "解除安裝", "color": "red"}]}}, " 解除安裝。"]
+tellraw @a ["<", {text: "記錄位置", color: "blue"}, "> 歡迎使用記錄位置資料包！"]
+tellraw @a ["<", {text: "記錄位置", color: "blue"}, "> 使用 ", {text: "/function record:install", color: "green", click_event: {action: "run_command", command: "/function record:install"}, hover_event: {action: "show_text", value: ["執行", {text: "安裝", color: "green"}]}}, " 安裝。"]
+tellraw @a ["<", {text: "記錄位置", color: "blue"}, "> 使用 ", {text: "/function record:uninstall", color: "red", click_event: {action: "run_command", command: "/function record:uninstall"}, hover_event: {action: "show_text", value: ["執行", {text: "解除安裝", color: "red"}]}}, " 解除安裝。"]
