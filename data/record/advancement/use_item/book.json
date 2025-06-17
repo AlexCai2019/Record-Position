@@ -8,10 +8,14 @@
 			{
 				"item":
 				{
-					"items": "minecraft:book",
+					"items": "minecraft:poisonous_potato",
+					"components":
+					{
+						"minecraft:item_model": "minecraft:book"
+					},
 					"predicates":
 					{
-						"custom_data":
+						"minecraft:custom_data":
 						{
 							"record": true
 						}

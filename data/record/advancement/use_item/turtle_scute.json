@@ -8,10 +8,14 @@
 			{
 				"item":
 				{
-					"items": "minecraft:turtle_scute",
+					"items": "minecraft:poisonous_potato",
+					"components":
+					{
+						"minecraft:item_model": "minecraft:turtle_scute"
+					},
 					"predicates":
 					{
-						"custom_data":
+						"minecraft:custom_data":
 						{
 							"record": true
 						}

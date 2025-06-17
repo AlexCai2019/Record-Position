@@ -8,10 +8,14 @@
 			{
 				"item":
 				{
-					"items": "minecraft:compass",
+					"items": "minecraft:poisonous_potato",
+					"components":
+					{
+						"minecraft:item_model": "minecraft:compass"
+					},
 					"predicates":
 					{
-						"custom_data":
+						"minecraft:custom_data":
 						{
 							"record": true
 						}
