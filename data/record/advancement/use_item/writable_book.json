@@ -1,7 +1,7 @@
 {
 	"criteria":
 	{
-		"compass":
+		"writable_book":
 		{
 			"trigger": "minecraft:using_item",
 			"conditions":
@@ -11,7 +11,7 @@
 					"items": "minecraft:poisonous_potato",
 					"components":
 					{
-						"minecraft:item_model": "minecraft:compass"
+						"minecraft:item_model": "minecraft:writable_book"
 					},
 					"predicates":
 					{
@@ -28,7 +28,7 @@
 						"entity": "this",
 						"scores":
 						{
-							"rp_compass_cooldown": 0
+							"rp_writable_book_cooldown": 0
 						}
 					}
 				]
@@ -37,6 +37,6 @@
 	},
 	"rewards":
 	{
-		"function": "record:use_item/compass"
+		"function": "record:use_item/writable_book"
 	}
 }

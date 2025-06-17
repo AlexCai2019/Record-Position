@@ -6,8 +6,8 @@ tellraw @s ["<", {text: "記錄位置", color: "blue"}, "> 使用 ", {text: "/fu
 tellraw @s ["<", {text: "記錄位置", color: "blue"}, "> 外部連結：", {translate: "chat.square_brackets", with: [{text: "巴哈姆特", color: "aqua", underlined: true, click_event: {action: "open_url", url: "https://forum.gamer.com.tw/C.php?bsn=18673&snA=202145"}, hover_event: {action: "show_text", value: "巴哈姆特連結"}}]}, " ", {translate: "chat.square_brackets", with: [{text: "GitHub", color: "aqua", underlined: true, click_event: {action: "open_url", url: "https://github.com/AlexCai2019/Record-Position"}, hover_event: {action: "show_text", value: "GitHub連結"}}]}, "。"]
 
 scoreboard objectives add rp_core dummy
-scoreboard objectives add rp_book_cooldown dummy
-scoreboard objectives add rp_compass_cooldown dummy
+scoreboard objectives add rp_writable_book_cooldown dummy
+scoreboard objectives add rp_ender_pearl_cooldown dummy
 scoreboard objectives add rp_turtle_scute_cooldown dummy
 scoreboard objectives add rp_inventory dummy
 

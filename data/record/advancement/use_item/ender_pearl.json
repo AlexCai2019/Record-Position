@@ -1,7 +1,7 @@
 {
 	"criteria":
 	{
-		"book":
+		"ender_pearl":
 		{
 			"trigger": "minecraft:using_item",
 			"conditions":
@@ -11,7 +11,7 @@
 					"items": "minecraft:poisonous_potato",
 					"components":
 					{
-						"minecraft:item_model": "minecraft:book"
+						"minecraft:item_model": "minecraft:ender_pearl"
 					},
 					"predicates":
 					{
@@ -28,7 +28,7 @@
 						"entity": "this",
 						"scores":
 						{
-							"rp_book_cooldown": 0
+							"rp_ender_pearl_cooldown": 0
 						}
 					}
 				]
@@ -37,6 +37,6 @@
 	},
 	"rewards":
 	{
-		"function": "record:use_item/book"
+		"function": "record:use_item/ender_pearl"
 	}
 }
