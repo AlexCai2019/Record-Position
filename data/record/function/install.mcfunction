@@ -1,4 +1,4 @@
-gamerule sendCommandFeedback false
+gamerule send_command_feedback false
 
 tellraw @s ["<", {text: "記錄位置", color: "blue"}, "> 歡迎使用記錄位置資料包！"]
 tellraw @s ["<", {text: "記錄位置", color: "blue"}, "> 使用 ", {text: "/trigger rp_setting", color: "gold", click_event: {action: "run_command", command: "/trigger rp_setting set 1"}, hover_event: {action: "show_text", value: "開啟設定"}}, " 開啟設定。需使用", {translate: "gameMode.creative"}, "。"]
