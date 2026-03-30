@@ -12,3 +12,4 @@ scoreboard objectives remove rp_writable_book_cooldown
 scoreboard objectives remove rp_ender_pearl_cooldown
 scoreboard objectives remove rp_turtle_scute_cooldown
 scoreboard objectives remove rp_inventory
+scoreboard objectives remove rp_setting

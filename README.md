@@ -8,7 +8,7 @@
 2. 放到地圖檔的 `datapacks/` 資料夾內(可參考此[教學](https://zh.minecraft.wiki/w/Tutorial:安装数据包))
 3. 在地圖內打上 `/reload` 指令
 4. 使用指令 `/function record:install` 安裝
-5. 使用指令 `/function record:setting` 設定
+5. 使用指令 `/trigger setting` 設定(需使用創造模式)
 
 若要解除安裝，可使用指令 `/function record:uninstall`
 
