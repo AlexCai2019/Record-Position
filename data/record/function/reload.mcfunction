@@ -1,3 +1,4 @@
 tellraw @a ["<", {text: "記錄位置", color: "blue"}, "> 歡迎使用記錄位置資料包！"]
 tellraw @a ["<", {text: "記錄位置", color: "blue"}, "> 使用 ", {text: "/function record:install", color: "green", click_event: {action: "run_command", command: "/function record:install"}, hover_event: {action: "show_text", value: ["執行", {text: "安裝", color: "green"}]}}, " 安裝。"]
+execute if score #install rp_core matches 1 run tellraw @a ["<", {text: "記錄位置", color: "blue"}, "> 使用 ", {text: "/trigger rp_setting", color: "gold", click_event: {action: "run_command", command: "/trigger rp_setting set 1"}, hover_event: {action: "show_text", value: "開啟設定"}}, " 開啟設定。需使用", {translate: "gameMode.creative"}, "。"]
 tellraw @a ["<", {text: "記錄位置", color: "blue"}, "> 使用 ", {text: "/function record:uninstall", color: "red", click_event: {action: "run_command", command: "/function record:uninstall"}, hover_event: {action: "show_text", value: ["執行", {text: "解除安裝", color: "red"}]}}, " 解除安裝。"]
