@@ -1,4 +1,4 @@
-gamerule sendCommandFeedback true
+gamerule send_command_feedback true
 
 tellraw @s ["<", {text: "記錄位置", color: "blue"}, "> 謝謝使用記錄位置資料包。"]
 tellraw @s ["<", {text: "記錄位置", color: "blue"}, "> 若要重新安裝，請使用 ", {text: "/function record:install", color: "green", click_event: {action: "run_command", command: "/function record:install"}, hover_event: {action: "show_text", value: ["執行", {text: "安裝", color: "green"}]}}, " 指令。"]
